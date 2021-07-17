@@ -6,6 +6,11 @@
 
 A plain, text-friendly Hexo theme
 
+## Changes by 2540825244
+
+Add config to customize head
+Rename _config.yml to _config.yml.default
+
 ## Install
 1. `git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln`
 2. Modify your [hexo configuration](https://hexo.io/docs/configuration.html), [change `theme`](https://hexo.io/docs/configuration.html#Extensions) to `pln`.
