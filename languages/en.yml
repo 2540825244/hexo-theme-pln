@@ -3,6 +3,6 @@ next: NEXT
 archive_title: archive
 page_counter: There are %d articles in total
 read_more: more
-page_read: page PV
-site_read: site PV
-site_visitor: site UV
+page_read: Page View Count
+site_read: Site View Count
+site_visitor: Site Visitor Count
