@@ -43,10 +43,10 @@
 &nbsp;
 
 <%var split_path = path.split('/');
-  if(split_path[(config.lang_location)] === 'en') {
-      split_path[(config.lang_location)] = 'zh-CN';
+  if(page.lang === 'en') {
+      split_path[parseInt(theme.lang_location)] = 'zh-CN';
   } else {
-      split_path[(config.lang_location)] = 'en';
+      split_path[parseInt(theme.lang_location)] = 'en';
   }
   var target_path = '/' + split_path.join('/'); %>
   <%- '<a href="' + target_path + '"> Switch Language/切换语言 </a>' %>
