@@ -42,12 +42,12 @@
     <%-<!--Icon from https://remixicon.com/-->%>
 &nbsp;
 
-<%var split_path = path.split('/');
+<%var split_path = page.path.split('/');
   if(page.lang === 'en') {
       split_path[parseInt(theme.lang_location)] = 'zh-CN';
   } else {
       split_path[parseInt(theme.lang_location)] = 'en';
   }
   var target_path = '/' + split_path.join('/'); 
-  if(path === '/') {target_path = '/'}%>
+  if(page.path === 'index.html') {target_path = '/'}%>
   <%- '<a href="' + target_path + '"> Switch Language/切换语言 </a>' %>
