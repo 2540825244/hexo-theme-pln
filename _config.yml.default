@@ -18,6 +18,8 @@ toc: true
 
 latex: true
 
+lang_location: 0 #location in path of the lang in your blogs (starting from 0)
+
 # If you want to use valine,you should get the appId and appKey form https://leancloud.cn ,more setting please see https://valine.js.org
 valine:
   enable: false # !!if you want use valine comment system,please set enable: true
