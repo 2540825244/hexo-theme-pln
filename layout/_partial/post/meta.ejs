@@ -49,5 +49,5 @@
       split_path[parseInt(theme.lang_location)] = 'en';
   }
   var target_path = '/' + split_path.join('/'); 
-  if(page.path === 'index.html' || item.tags.includes('no-multilingual')) {target_path = page.path}%>
+  if(page.path === 'index.html') {target_path = page.path}%>
   <%- '<a href="' + target_path + '"> Switch Language/切换语言 </a>' %>
