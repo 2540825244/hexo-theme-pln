@@ -1,5 +1,7 @@
 logo: XXX # top-left logo in index page
 
+head: XXX # custom html head
+
 more: # more links at top right index page
   links: /links.html
   Github: https://github.com/XXX/
