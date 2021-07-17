@@ -9,6 +9,7 @@ A plain, text-friendly Hexo theme
 ## Changes by 2540825244
 
 Add config to customize head
+
 Rename _config.yml to _config.yml.default
 
 ## Install
