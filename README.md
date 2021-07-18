@@ -12,6 +12,11 @@ Add config to customize head
 
 Rename _config.yml to _config.yml.default
 
+allow for custom front matter "multilingual", if this front matter does not exist the meta switch language would not exist
+
+adds a switch to switch between Chinese and English in blog
+to use this make folders name zh-CN and en in your sources and put corrosponding blogs in (the blogs needs to have the same name), check where in location the names of the folders are and set that as a config in _config.yml
+
 ## Install
 1. `git clone https://github.com/gaoryrt/hexo-theme-pln.git themes/pln`
 2. Modify your [hexo configuration](https://hexo.io/docs/configuration.html), [change `theme`](https://hexo.io/docs/configuration.html#Extensions) to `pln`.
