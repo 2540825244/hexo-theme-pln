@@ -12,6 +12,8 @@ about: # about link at right foot
   title: Theme Pln
   link: https://github.com/gaoryrt/hexo-theme-pln
 
+custom_after: # custom body after page
+
 excerpt_num: 120
 
 toc: true
