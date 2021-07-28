@@ -8,6 +8,7 @@ more: # more links at top right index page
   #rss: /rss2.xml
 
 footer_info: © XXX 2016-2020 # about info at right foot
+footer: #Custom footer that appears in every page for things like cookie notice
 about: # about link at right foot
   title: Theme Pln
   link: https://github.com/gaoryrt/hexo-theme-pln
